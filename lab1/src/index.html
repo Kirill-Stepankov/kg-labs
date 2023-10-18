@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laba1</title>
+</head>
+<body>
+    <input type="color" id="color_picker" style="width: 300px; height: 300px; margin-left: 40%; margin-top: 100px;">
+    <br>
+    <div style="margin-top: 70px; margin-left: 150px;">
+        <div style="margin-left: 100px; width: 400px; display: inline-block;">
+            <p style="margin-left: 80px;">CMYK</p>
+            <p>
+                <label>C</label>
+                <input type="number" id="C" value="0">
+                <input type="range" min="0" max="100" value="0" class="slider" id="C_slider">
+            </p>
+            <p>
+                <label>M</label>
+                <input type="number" id="M" value="0">
+                <input type="range" min="0" max="100" value="0" class="slider" id="M_slider">
+            </p>
+            <p>
+                <label>Y</label>
+                <input type="number" id="Y" value="0">
+                <input type="range" min="0" max="100" value="0" class="slider" id="Y_slider">
+            </p>
+            <p>
+                <label>K</label>
+                <input type="number" id="K" value="0">
+                <input type="range" min="0" max="100" value="0" class="slider" id="K_slider">
+            </p>
+        </div>
+        <div style="margin-left: 100px; width: 400px; display: inline-block;">
+            <p style="margin-left: 80px;">RGB</p>
+            <p>
+                <label>R</label>
+                <input type="number" id="R" value="0">
+                <input type="range" min="0" max="255" value="0" class="slider" id="R_slider">
+            </p>
+            <p>
+                <label>G</label>
+                <input type="number" id="G" value="0">
+                <input type="range" min="0" max="255" value="0" class="slider" id="G_slider">
+            </p>
+            <p>
+                <label>B</label>
+                <input type="number" id="B" value="0">
+                <input type="range" min="0" max="255" value="0" class="slider" id="B_slider">
+            </p>
+        </div>
+        <div style="margin-left: 100px; width: 400px; display: inline-block;">
+            <p style="margin-left: 80px;">HSL</p>
+            <p>
+                <label>H</label>
+                <input type="number" value="0" id="H">
+                <input type="range" min="0" max="360" value="0" class="slider" id="H_slider">
+            </p>
+            <p>
+                <label>S</label>
+                <input type="number" value="0" id="S">
+                <input type="range" min="0" max="100" value="0" class="slider" id="S_slider">
+            </p>
+            <p>
+                <label>L</label>
+                <input type="number" value="0" id="L">
+                <input type="range" min="0" max="100" value="0" class="slider" id="L_slider">
+            </p>
+        </div>
+    </div>
+
+    
+    <!-- kirill loh -->
+    <script src="main.js"></script>
+</body>
+</html>
